@@ -42,6 +42,11 @@ AppAsset::register($this);
     </div>
     <?php $this->endBody() ?>
 </body>
+<!-- <script>
+    jQuery('document').ready(function() {
+        jQuery('#mahasiswa-tanggal_lahir').datepicker();
+    });
+</script> -->
 
 </html>
 <?php $this->endPage() ?>

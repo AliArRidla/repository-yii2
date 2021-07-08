@@ -29,7 +29,9 @@ class AppAsset extends AssetBundle
 
     ];
     public $js = [
-        'https://code.jquery.com/jquery-3.3.1.min.js',
+        'http://code.jquery.com/ui/1.11.0/jquery-ui.js',
+        'https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js',
+        'https://code.jquery.com/jquery-3.6.0.min.js',
         'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
         'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js',
         'https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js',
