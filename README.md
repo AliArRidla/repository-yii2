@@ -80,3 +80,30 @@ return [
 ~~~
 php yii serve
 ~~~
+
+6. jika berhasil maka akan terlihat seperti ini 
+
+![alt text](images/index.png "halaman dasboard") 
+
+ini adalah gambaran awal atau home yang akan pertama kali di lihat user jika ingin menambah data mahasiswa maka bisa mengklik sidebar disamping `+ mahasiswa` maka akan tampil seperti ini 
+
+![alt text](images/tambah.png "halaman tambah data") 
+
+7. namun upaya terakhir jika masi tetap error maka bisa akses langsung di website yang sudah saya hosting di alamat perpussmaku.us.to, namun jika mengalamani error seperti berikut 
+
+![alt text](images/error1.png "halaman unsafe") 
+
+solusnya adalah klik button `advanced` lalu akan tampil seperti berikut 
+
+![alt text](images/error2.png "halaman unsafe lanjut") 
+
+maka tetap lanjut klik _proced to perpusmaku.us.to_
+
+
+**Terimakasih dan selamat mencoba :)**
+
+
+
+
+
+
