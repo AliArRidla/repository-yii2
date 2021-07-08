@@ -10,9 +10,11 @@ $this->params['breadcrumbs'][] = ['label' => 'Mahasiswas', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="mahasiswa-create">
-
-    <h1><?= Html::encode($this->title) ?></h1>
-
+    <section class="section">
+        <div class="section-header">
+            <h1><?= Html::encode($this->title) ?></h1>
+        </div>
+    </section>
     <?= $this->render('_form', [
         'model' => $model,
     ]) ?>

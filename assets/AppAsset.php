@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
@@ -21,8 +22,22 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
+        'https://use.fontawesome.com/releases/v5.7.2/css/all.css',
+        'assets/stisla/css/style.css',
+        'assets/stisla/css/components.css',
+
     ];
     public $js = [
+        'https://code.jquery.com/jquery-3.3.1.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
+        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js',
+        'assets/stisla/js/stisla.js',
+        'assets/stisla/js/scripts.js',
+        'assets/stisla/js/custom.js',
+
     ];
     public $depends = [
         'yii\web\YiiAsset',
